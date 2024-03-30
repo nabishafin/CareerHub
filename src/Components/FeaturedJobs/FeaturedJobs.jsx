@@ -22,7 +22,7 @@ const FeaturedJobs = () => {
                 <h2 className="text-5xl">Featured Job:{jobs.length}</h2>
                 <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div className=" grid md:grid-cols-2 gap-6  sm:grid-cols-1 m-4 ">
+            <div className=" grid md:grid-cols-2 gap-6  sm: grid-cols-1 m-10 md:m-20 w-auto ">
                 {
                     jobs.slice(0, dataLength).map(job =>
                         <Job

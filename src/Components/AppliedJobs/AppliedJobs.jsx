@@ -37,8 +37,8 @@ const AppliedJobs = () => {
 
     return (
         <div>
-            <div className="flex justify-between m-6 ">
-                <h2 className="text-green-400 font-bold text-xl"> Applied Jobs : {appliedJobs.length}</h2>
+            <div className="flex justify-between m-6">
+                <h2 className=" font-bold text-xl"> Applied Jobs : {appliedJobs.length}</h2>
                 <details className="dropdown">
                     <summary className="m-1 btn">Filter</summary>
                     <ul className="p-1 shadow menu dropdown-content z-[1] bg-base-100 rounded-box ">
@@ -51,7 +51,7 @@ const AppliedJobs = () => {
             <div>
                 {
                     displayjob.map(job =>
-                        <ul className="flex justify-between border-2 p-3 m-4 items-center bg-teal-100">
+                        <ul className="flex justify-between  p-3 m-4 items-center shadow-xl ">
                             <div className="mt-5">
                                 <img src={job.logo} alt="" />
                             </div>

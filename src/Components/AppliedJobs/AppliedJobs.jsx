@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoreJobAplication } from "../Utility/LocalStorage";
-import { list } from "postcss";
+
 
 
 const AppliedJobs = () => {
@@ -36,7 +36,7 @@ const AppliedJobs = () => {
     }
 
     return (
-        <div>
+        <div className=" bg-emerald-100 p-4">
             <div className="flex justify-between m-6">
                 <h2 className=" font-bold text-xl"> Applied Jobs : {appliedJobs.length}</h2>
                 <details className="dropdown">
@@ -51,8 +51,8 @@ const AppliedJobs = () => {
             <div>
                 {
                     displayjob.map(job =>
-                        <ul className="flex justify-between  p-3 m-4 items-center shadow-xl ">
-                            <div className="mt-5">
+                        <ul className="flex justify-between  p-3 m-4 items-center shadow-xl bg-white ">
+                            <div className="mt-5 ">
                                 <img src={job.logo} alt="" />
                             </div>
                             <div className="p-4">

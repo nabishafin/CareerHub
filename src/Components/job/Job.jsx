@@ -10,7 +10,7 @@ const Job = ({ job }) => {
 
     return (
         <div>
-            <div className="card  border shadow-xl p-4 bg-transparent">
+            <div className="card  border shadow-xl p-4 bg-white">
 
                 <figure><img src={logo} /></figure>
 

@@ -17,10 +17,10 @@ const FeaturedJobs = () => {
     }, [])
 
     return (
-        <div className="text-center">
+        <div className="text-center  bg-emerald-100 ">
             <div>
-                <h2 className="text-5xl">Featured Job:{jobs.length}</h2>
-                <p className=""> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2 className="md: text-3xl font-bold lg:text-6xl">Featured Job:{jobs.length}</h2>
+                <p className=" md:font-bold lg:text-3xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div className=" grid md:grid-cols-2 gap-6  sm: grid-cols-1 m-10 md:m-20 w-auto ">
                 {

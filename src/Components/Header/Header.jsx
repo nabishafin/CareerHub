@@ -7,7 +7,7 @@ const Header = () => {
             <li className="font-bold text-lg"><NavLink to='/'>Home</NavLink></li>
             <li className="font-bold text-lg"><NavLink to='/applied'>Applied Jobs</NavLink></li>
             <li className="font-bold text-lg"><NavLink to='/blogs'>Blogs</NavLink></li>
-            <li className="font-bold  text-lg"><NavLink to='/Statistics'>About</NavLink></li>
+            <li className="font-bold  text-lg"><NavLink to='/about'>About</NavLink></li>
         </>
     return (
         <div>
@@ -29,7 +29,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Apply-Now</a>
+                    <a className="btn">Search</a>
                 </div>
             </div>
         </div>

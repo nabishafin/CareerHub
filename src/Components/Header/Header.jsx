@@ -28,8 +28,8 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Search</a>
+                <div className="navbar-end ">
+                    <a className="btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Log-In</a>
                 </div>
             </div>
         </div>

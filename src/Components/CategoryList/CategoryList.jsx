@@ -9,7 +9,7 @@ const CategoryList = () => {
 
 
     return (
-        <div className="text-center  bg-emerald-100  ">
+        <div className="text-center  ">
             <h2 className="md: text-3xl font-bold lg:text-6xl">Jobs Category List</h2>
             <div>
                 <p className=" md:font-bold lg:text-3xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

@@ -36,7 +36,7 @@ const AppliedJobs = () => {
     }
 
     return (
-        <div className=" bg-emerald-100 p-4">
+        <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4">
             <div className="flex justify-between m-6">
                 <h2 className=" font-bold text-xl"> Applied Jobs : {appliedJobs.length}</h2>
                 <details className="dropdown">

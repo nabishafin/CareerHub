@@ -16,7 +16,7 @@ const Jobdetails = () => {
     }
 
     return (
-        <div className=" bg-emerald-100">
+        <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
             <div className="font-bold">
                 <h1 className="lg:text-4xl p-5">Job Details</h1>
             </div>
